@@ -1,0 +1,62 @@
+[
+    {
+        "timestamp": "2026-06-08 13:51:54",
+        "question": "Show all customers",
+        "sql": "SELECT * FROM customers",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:53:03",
+        "question": "How many customers are there?",
+        "sql": "SELECT COUNT(*) FROM customers",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:53:34",
+        "question": "Show customers from Chennai",
+        "sql": "SELECT name FROM customers WHERE city = 'Chennai'",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:54:08",
+        "question": "Show customers from chennai",
+        "sql": "SELECT id, name, email, city, created_at FROM customers WHERE city = 'chennai'",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:54:52",
+        "question": "Delete all customers",
+        "sql": "SELECT * FROM customers;",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:58:49",
+        "question": "Delete all customers",
+        "sql": "SELECT id, name, email, city, created_at FROM customers",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 13:59:41",
+        "question": "Delete all customers",
+        "sql": "BLOCKED",
+        "status": "blocked"
+    },
+    {
+        "timestamp": "2026-06-08 14:01:40",
+        "question": "Delete all customers",
+        "sql": "BLOCKED",
+        "status": "blocked"
+    },
+    {
+        "timestamp": "2026-06-08 14:02:55",
+        "question": "Show all customers",
+        "sql": "SELECT id, name, email, city, created_at FROM customers",
+        "status": "success"
+    },
+    {
+        "timestamp": "2026-06-08 14:08:44",
+        "question": "Show all customers",
+        "sql": "SELECT id, name, email, city, created_at FROM customers",
+        "status": "success"
+    }
+]
