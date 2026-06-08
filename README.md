@@ -86,7 +86,7 @@ ai-sql-assistant/
 ├── requirements.txt
 ├── README.md
 ├── query_logs.json
-├── .env
+├── .env (local only, not commited)
 └── .gitignore
 ```
 
@@ -422,3 +422,28 @@ Developed as part of an AI Engineer / LLM Engineer technical assessment demonstr
 * Secure query execution
 * Audit logging
 * Error handling
+  
+## Assumptions
+
+* The database schema is known and fixed at runtime.
+* Users interact with the system through the REST API.
+* Only analytical and read-only queries are supported.
+* SQLite is used as the underlying database.
+* The Gemini model generates syntactically valid SQL for the provided schema.
+
+---
+
+## Limitations
+
+* The application currently supports only SQLite databases.
+* Follow-up conversational questions are not supported.
+* The system relies on LLM-generated SQL and may occasionally produce incorrect queries for highly complex questions.
+* Chart generation and data visualization are not implemented.
+* SQL self-correction is not implemented if a generated query fails.
+* Authentication and user-specific access controls are not included.
+* The database schema is currently embedded in the prompt and must be updated manually if the schema changes.
+* The application is intended for demonstration and assessment purposes and is not production-hardened.
+
+
+
+
