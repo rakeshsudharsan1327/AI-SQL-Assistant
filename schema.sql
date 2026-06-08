@@ -22,8 +22,8 @@ CREATE TABLE orders (
 );
 
 INSERT INTO customers VALUES
-(1,'Vijay','vijay@test.com','perambur','2026-05-10'),
-(2,'Trisha','trisha@test.com','chennai','2026-05-04');
+(1,'Vijay','vijay@test.com','Perambur','2026-05-10'),
+(2,'Trisha','trisha@test.com','Chennai','2026-05-04');
 
 INSERT INTO products VALUES
 (1,'Laptop','Electronics',1000),
